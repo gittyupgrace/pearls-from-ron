@@ -74,5 +74,15 @@ app.displayGif = (gifData) => {
     })
 }
 
+//EVENT LISTENER TO DISPLAY API DATA
+
+app.button = document.getElementById('button');
+
+app.button.addEventListener('click', () => {
+    app.getGif();
+    app.getQuote();
+})
+
+
 
 app.init();

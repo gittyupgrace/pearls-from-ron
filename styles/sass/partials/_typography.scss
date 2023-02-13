@@ -1,0 +1,13 @@
+html {
+    font-size: 125%;
+}
+
+body {
+    font-family: 'Itim', cursive;
+}
+
+h1 {
+    font-family: 'Dela Gothic One', cursive;
+    @include fontSize(72);
+}
+

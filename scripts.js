@@ -31,7 +31,7 @@ app.displayQuote = (quote) => {
     //get <p> where string will appear
     const quoteContainer = document.getElementById('displayQuote');
     //insert quoteString into quoteContainer
-    quoteContainer.textContent = quoteString;
+    quoteContainer.textContent = `"${quoteString}"`;
 }
 
 //GIPHY API

@@ -249,6 +249,10 @@ h1 {
   font-size: 3.6rem;
 }
 
+.quoteContainer {
+  text-align: center;
+}
+
 img {
   width: 100%;
   display: block;
@@ -270,4 +274,48 @@ ul {
   max-width: 1280px;
   width: 80%;
   margin: 0 auto;
+}
+
+.mainContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.quoteGifContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 25px 25px 40px;
+  -webkit-box-shadow: 0 0 20px grey;
+          box-shadow: 0 0 20px grey;
+  width: 50%;
+}
+
+.gifContainer {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+.gifContainer img {
+  -webkit-box-shadow: 0 0 3px grey;
+          box-shadow: 0 0 3px grey;
+}
+
+.quoteContainer {
+  margin-top: 20px;
+  padding: 0 5px;
 }

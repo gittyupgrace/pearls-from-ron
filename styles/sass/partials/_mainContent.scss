@@ -1,0 +1,26 @@
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quoteGifContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px 25px 40px;
+    box-shadow: 0 0 20px grey;
+    width: 50%;
+}
+
+.gifContainer {
+    filter: grayscale(100%);
+
+    img {
+        box-shadow: 0 0 3px grey;
+    }
+}
+
+.quoteContainer {
+    margin-top: 20px;
+    padding: 0 5px;
+}

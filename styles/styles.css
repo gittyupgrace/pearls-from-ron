@@ -291,11 +291,12 @@ ul {
 
 header {
   text-align: center;
-  color: #165A16;
+  color: #104210;
 }
 
 h1 {
   margin-bottom: 0;
+  text-shadow: 3px 3px 3px #F4EF9F;
 }
 
 h2 {
@@ -309,30 +310,29 @@ button {
   height: 100px;
   border-radius: 50%;
   border: none;
-  background-color: #165A16;
+  background-color: #104210;
   color: #F4EF9F;
   cursor: pointer;
+  z-index: 10;
+  position: absolute;
+  top: -40px;
+  right: -47px;
+  -webkit-box-shadow: 3px 6px 10px;
+          box-shadow: 3px 6px 10px;
 }
 button:hover, button:focus {
   background-color: #F4EF9F;
-  color: #165A16;
-  border: 2px solid #165A16;
+  color: #104210;
+  border: 3px solid #104210;
 }
 
 .mainContent {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   padding: 25px 0 80px 0;
 }
 
@@ -348,10 +348,11 @@ button:hover, button:focus {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 25px 25px 40px;
-  -webkit-box-shadow: 0 0 20px grey;
-          box-shadow: 0 0 20px grey;
-  width: 50%;
+  -webkit-box-shadow: 0 0 20px #000;
+          box-shadow: 0 0 20px #000;
+  width: 40%;
   background-color: #FFF;
+  position: relative;
 }
 
 .gifContainer {
@@ -371,7 +372,7 @@ button:hover, button:focus {
 footer {
   text-align: center;
   color: #F4EF9F;
-  background-color: #165A16;
+  background-color: #104210;
   padding: 0 30px;
   position: fixed;
   bottom: 0;

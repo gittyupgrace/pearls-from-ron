@@ -235,11 +235,6 @@ html {
   overflow: hidden;
 }
 
-html,
-body {
-  height: 100%;
-}
-
 html {
   font-size: 125%;
 }
@@ -258,16 +253,17 @@ h1 {
   text-align: center;
 }
 
+button {
+  font-family: "Itim", cursive;
+  text-transform: uppercase;
+}
+
 body {
-  background-color: #F4EF9F;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  min-height: 100%;
+  min-height: 100vh;
+  background-image: url(../assets/pawneeBackground.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 img {
@@ -306,10 +302,21 @@ h2 {
   margin-top: 0;
 }
 
-main {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+button {
+  margin-bottom: 25px;
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: none;
+  background-color: #165A16;
+  color: #F4EF9F;
+  cursor: pointer;
+}
+button:hover, button:focus {
+  background-color: #F4EF9F;
+  color: #165A16;
+  border: 2px solid #165A16;
 }
 
 .mainContent {
@@ -326,7 +333,7 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 25px 0;
+  padding: 25px 0 80px 0;
 }
 
 .quoteGifContainer {
@@ -363,6 +370,10 @@ main {
 
 footer {
   text-align: center;
-  color: #165A16;
-  padding-top: 25px;
+  color: #F4EF9F;
+  background-color: #165A16;
+  padding: 0 30px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }

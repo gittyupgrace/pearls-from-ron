@@ -1,8 +1,9 @@
 body {
-    background-color: #F4EF9F;
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
+    min-height: 100vh;
+    background-image: url(../assets/pawneeBackground.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 img {

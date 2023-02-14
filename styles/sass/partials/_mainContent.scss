@@ -1,13 +1,9 @@
-main {
-    flex-grow: 1;
-}
-
 .mainContent {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 25px 0;
+    padding: 25px 0 80px 0;
 }
 
 .quoteGifContainer {

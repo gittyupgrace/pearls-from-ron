@@ -235,6 +235,11 @@ html {
   overflow: hidden;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 html {
   font-size: 125%;
 }
@@ -251,6 +256,18 @@ h1 {
 
 .quoteContainer {
   text-align: center;
+}
+
+body {
+  background-color: #F4EF9F;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100%;
 }
 
 img {
@@ -276,6 +293,25 @@ ul {
   margin: 0 auto;
 }
 
+header {
+  text-align: center;
+  color: #165A16;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+main {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
 .mainContent {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -284,9 +320,13 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 25px 0;
 }
 
 .quoteGifContainer {
@@ -304,6 +344,7 @@ ul {
   -webkit-box-shadow: 0 0 20px grey;
           box-shadow: 0 0 20px grey;
   width: 50%;
+  background-color: #FFF;
 }
 
 .gifContainer {
@@ -318,4 +359,10 @@ ul {
 .quoteContainer {
   margin-top: 20px;
   padding: 0 5px;
+}
+
+footer {
+  text-align: center;
+  color: #165A16;
+  padding-top: 25px;
 }

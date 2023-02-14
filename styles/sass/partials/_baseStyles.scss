@@ -1,3 +1,10 @@
+body {
+    background-color: #F4EF9F;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
 img {
     width: 100%;
     display: block;

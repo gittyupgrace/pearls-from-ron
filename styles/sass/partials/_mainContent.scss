@@ -1,8 +1,15 @@
+main {
+    flex-grow: 1;
+}
+
 .mainContent {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    padding: 25px 0;
 }
+
 .quoteGifContainer {
     display: flex;
     flex-direction: column;
@@ -10,6 +17,7 @@
     padding: 25px 25px 40px;
     box-shadow: 0 0 20px grey;
     width: 50%;
+    background-color: #FFF;
 }
 
 .gifContainer {

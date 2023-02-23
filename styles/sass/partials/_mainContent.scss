@@ -1,7 +1,7 @@
 .mainContent {
     display: flex;
     justify-content: center;
-    padding: 25px 0 80px 0;
+    padding: 20px 0 80px 0;
 }
 
 .quoteGifContainer {
@@ -10,14 +10,12 @@
     justify-content: space-between;
     padding: 25px 25px 40px;
     box-shadow: 0 0 20px #000;
-    width: 40%;
+    width: 50%;
     background-color: #FFF;
     position: relative;
 }
 
 .gifContainer {
-    filter: grayscale(100%);
-
     img {
         box-shadow: 0 0 3px grey;
     }

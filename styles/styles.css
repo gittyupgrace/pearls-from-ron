@@ -264,7 +264,6 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  overflow: hidden;
 }
 
 img {
@@ -292,12 +291,12 @@ ul {
 
 header {
   text-align: center;
-  color: #104210;
+  color: #0D350D;
 }
 
 h1 {
   margin-bottom: 0;
-  text-shadow: 3px 3px 3px #F4EF9F;
+  text-shadow: 4px 4px 1px #F4EF9F;
 }
 
 h2 {
@@ -317,7 +316,7 @@ button {
   z-index: 10;
   position: absolute;
   top: -40px;
-  right: -47px;
+  right: -27px;
   -webkit-box-shadow: 3px 6px 10px;
           box-shadow: 3px 6px 10px;
 }
@@ -334,7 +333,7 @@ button:hover, button:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 25px 0 80px 0;
+  padding: 20px 0 80px 0;
 }
 
 .quoteGifContainer {
@@ -351,15 +350,11 @@ button:hover, button:focus {
   padding: 25px 25px 40px;
   -webkit-box-shadow: 0 0 20px #000;
           box-shadow: 0 0 20px #000;
-  width: 40%;
+  width: 50%;
   background-color: #FFF;
   position: relative;
 }
 
-.gifContainer {
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
-}
 .gifContainer img {
   -webkit-box-shadow: 0 0 3px grey;
           box-shadow: 0 0 3px grey;
@@ -377,5 +372,35 @@ footer {
   padding: 0 30px;
   position: fixed;
   bottom: 0;
-  right: 0;
+  left: 0;
+}
+
+@media (max-width: 1047px) {
+  .quoteGifContainer {
+    width: 75%;
+  }
+}
+@media (max-width: 649px) {
+  h1 {
+    font-size: 52px;
+    font-size: 2.6rem;
+  }
+  h2 {
+    font-size: 24px;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+  .quoteGifContainer {
+    padding: 15px 15px 30px;
+  }
+  .quoteGifContainer {
+    width: 90%;
+  }
+}
+@media (max-width: 387px) {
+  .quoteContainer {
+    font-size: 16px;
+    font-size: 0.8rem;
+  }
 }

@@ -1,0 +1,31 @@
+@media (max-width: 1047px) {
+    .quoteGifContainer {
+        width: 75%;
+    }
+}
+
+@media (max-width: 649px) {
+    h1 {
+        @include fontSize(52);
+    }
+
+    h2 {
+        @include fontSize(24);
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+
+    .quoteGifContainer {
+        padding: 15px 15px 30px;
+    }
+
+    .quoteGifContainer {
+        width: 90%;
+    }
+}
+
+@media (max-width: 387px) {
+    .quoteContainer {
+        @include fontSize(16);
+    }
+}
